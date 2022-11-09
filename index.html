@@ -6,14 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Issuu Register Form</title>
     <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <nav>
-            <div>
+            <div class="headerLogo">
                 <img src="https://cdn.worldvectorlogo.com/logos/issuu.svg" width="50px" height="50px" alt="logo_nav">
             </div>
-            <div>
+            <div class="navLinks">
                 <p>Already a user?</p>
                 <a href="google.com">Sign In</a>
             </div>
@@ -23,14 +26,24 @@
     <main>
         <form action="#">
 
-           <div>
+           <div class="formHead">
             <h2>Create an Issuu Account</h2>
-            <button type="submit">Google</button>
-            <button type="submit">Facebook</button>
+            <div class="button1">
+                <button type="submit" class="google">
+                    <img src="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-webinar-optimizing-for-success-google-business-webinar-13.png" width="20px" alt="google_logo">
+                    <span>Sign In with Google</span>
+                </button>
+            </div>
+            <div class="button2">
+                <button type="submit" class="facebook">
+                    <img src="https://www.utsc.utoronto.ca/programs/moveu/wp-content/uploads/sites/5/2018/03/facebook-logo-png-transparent-background.png" width="20px" alt="facebook_logo">
+                    <span>Sign In with Facebook</span>
+                </button>
+            </div>
             <p>or with email</p>
            </div>
 
-           <fieldset>
+           <fieldset class="email">
             <label for="email">Email</label>
             <input type="email" name="email" id="email" placeholder="e.g john.doe@email.com">
            </fieldset>
@@ -45,13 +58,20 @@
             <label for="checkbox">I accept the <a href="#">Terms of Service</a> and the <a href="#">Professional Terms of Service.</a></label>
            </div>
 
-           <button type="submit">Create Account</button>
+           <button class="btnMain" type="submit">Create Account</button>
 
         </form>
     </main>
 
     <footer>
-        <p>Copyright Issuu 2022</p>
+        <div class="copy">
+            <p>Copyright Issuu 2022</p>
+        </div>
+        <div class="footerMenu">
+            <a href="#">Terms</a>
+            <a href="#">Privacy</a>
+            <a href="#">DMCA</a>
+        </div>
     </footer>
 
 </body>

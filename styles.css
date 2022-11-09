@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+button, input[type="submit"], input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+header {
+    position: relative;
+    height: 70px;
+    border-bottom: 2px solid #E3E3E3;
+}
+
+
+.headerLogo {
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.navLinks {
+    position: absolute;
+    right: 0;
+    text-align: left;
+    margin-right: 100px;
+    margin-top: 10px;
+}
+
+.navLinks a {
+    text-decoration: none;
+}
+
+main {
+    margin: 100px 0px 100px 200px;
+    width: 40%
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.button1, .button2 {
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 20px;
+}
+
+.google {
+    border: none;
+    border-radius: 5px;
+    background-color: #2EAFF0;
+    padding: 5px;
+    text-align: center;
+    margin: 5px;
+}
+
+.google span {
+    color: white;
+    font-size: 12px;
+    margin: 10px;
+}
+
+.facebook {
+    border: none;
+    border-radius: 5px;
+    background-color: #0968BB;
+    padding: 5px 5px;
+    text-align: center;
+    margin: 5px;
+}
+
+.facebook span {
+    color: white;
+    font-size: 12px;
+}
+
+.formHead p {
+    margin-bottom: 30px;
+}
+
+fieldset {
+    border: none;
+    margin-bottom: 30px;
+    padding: 0px;
+}
+
+fieldset input {
+    display: block;
+    margin-top: 10px;
+    width: 300px;
+    height: 20px;
+}
+
+fieldset label {
+    font-weight: bold;
+}
+
+.btnMain {
+    margin-top: 30px;
+    color: #E3E3E3; /*Color texto */
+    background: transparent; /* Eliminar color de fondo */
+    border-radius: 70px; /* Esquinas redondeadas */
+    border: 2px dashed #E3E3E3;
+    text-transform: uppercase; /* Mayúsculas */
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+}
+
+footer {
+    position: relative;
+    height: 70px;
+    border-top: 2px solid #E3E3E3;
+}
+
+.copy {
+    display: inline-block;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #797979;
+}
+
+.footerMenu {
+    display: inline-block;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 400px;
+}
+
+.footerMenu a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #797979;
+    margin-left: 30px;
+}
